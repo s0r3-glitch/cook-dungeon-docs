@@ -19,6 +19,7 @@ UnityEngine.MonoBehaviour --> DungeonKIT.AIStats
 #### Public  methods
 | Returns | Name |
 | --- | --- |
+| `void` | [`Death`](#death)() |
 | `void` | [`SuckHP`](#suckhp)(`float` SuckBloodHP) |
 | `void` | [`TakingDamage`](#takingdamage)(`float` damage) |
 
@@ -50,6 +51,11 @@ public void SuckHP(float SuckBloodHP)
 | Type | Name | Description |
 | --- | --- | --- |
 | `float` | SuckBloodHP |   |
+
+#### Death
+```csharp
+public void Death()
+```
 
 ### Events
 #### onDeath
