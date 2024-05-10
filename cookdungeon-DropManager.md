@@ -1,5 +1,8 @@
 # DropManager `Public class`
 
+## Description
+Droma
+
 ## Diagram
 ```mermaid
   flowchart LR
@@ -24,6 +27,9 @@ UnityEngine.MonoBehaviour --> CookDungeon.DropManager
 | `void` | [`NM`](#nm)() |
 
 ## Details
+### Summary
+Droma
+
 ### Inheritance
  - `MonoBehaviour`
 

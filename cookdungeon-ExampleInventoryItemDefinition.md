@@ -9,17 +9,14 @@
   CookDungeon.ExampleInventoryItemDefinition[[ExampleInventoryItemDefinition]]
   end
   subgraph HeathenEngineering.SteamTools
-  HeathenEngineering.SteamTools.InventoryItemDefinition[[InventoryItemDefinition]]
-  class HeathenEngineering.SteamTools.InventoryItemDefinition abstractStyle;
+HeathenEngineering.SteamTools.InventoryItemDefinition[[InventoryItemDefinition]]
   end
 HeathenEngineering.SteamTools.InventoryItemDefinition --> CookDungeon.ExampleInventoryItemDefinition
 ```
 
 ## Details
 ### Inheritance
- - [
-`InventoryItemDefinition`
-](./heathenengineeringsteamtools-InventoryItemDefinition)
+ - `InventoryItemDefinition`
 
 ### Constructors
 #### ExampleInventoryItemDefinition

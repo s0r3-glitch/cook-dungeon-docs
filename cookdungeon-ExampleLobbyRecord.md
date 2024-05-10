@@ -9,7 +9,7 @@
   CookDungeon.ExampleLobbyRecord[[ExampleLobbyRecord]]
   end
   subgraph HeathenEngineering.SteamTools
-  HeathenEngineering.SteamTools.LobbyRecordBehvaiour[[LobbyRecordBehvaiour]]
+HeathenEngineering.SteamTools.LobbyRecordBehvaiour[[LobbyRecordBehvaiour]]
   end
 HeathenEngineering.SteamTools.LobbyRecordBehvaiour --> CookDungeon.ExampleLobbyRecord
 ```
@@ -20,13 +20,11 @@ HeathenEngineering.SteamTools.LobbyRecordBehvaiour --> CookDungeon.ExampleLobbyR
 | Returns | Name |
 | --- | --- |
 | `void` | [`Selected`](#selected)() |
-| `void` | [`SetLobby`](#setlobby)([`LobbyHunterLobbyRecord`](./heathenengineeringsteamtools-LobbyHunterLobbyRecord) record, [`HeathenSteamLobbySettings`](./heathenengineeringsteamtools-HeathenSteamLobbySettings) lobbySettings) |
+| `void` | [`SetLobby`](#setlobby)(`LobbyHunterLobbyRecord` record, `HeathenSteamLobbySettings` lobbySettings) |
 
 ## Details
 ### Inheritance
- - [
-`LobbyRecordBehvaiour`
-](./heathenengineeringsteamtools-LobbyRecordBehvaiour)
+ - `LobbyRecordBehvaiour`
 
 ### Constructors
 #### ExampleLobbyRecord
@@ -42,8 +40,8 @@ public override void SetLobby(LobbyHunterLobbyRecord record, HeathenSteamLobbySe
 ##### Arguments
 | Type | Name | Description |
 | --- | --- | --- |
-| [`LobbyHunterLobbyRecord`](./heathenengineeringsteamtools-LobbyHunterLobbyRecord) | record |   |
-| [`HeathenSteamLobbySettings`](./heathenengineeringsteamtools-HeathenSteamLobbySettings) | lobbySettings |   |
+| `LobbyHunterLobbyRecord` | record |   |
+| `HeathenSteamLobbySettings` | lobbySettings |   |
 
 #### Selected
 ```csharp
